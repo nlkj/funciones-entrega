@@ -8,6 +8,7 @@
   //echo "<hr>";
   $ar= [1,5,78,54,5,5,78,2,5,5];
   $res= contador($ar);
+  ksort($res);
 
   print_r($res);
  ?>
